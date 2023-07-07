@@ -1,0 +1,638 @@
+/* bann and logo */
+#banner {
+    background-color: red;
+    height: 109px;
+    margin: 0;
+    box-shadow: 0 5px 10px #4a4646;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: .95;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+#imgDiv {
+    width:100%;
+    height: 800px;
+    background-image: url("pics/menubg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#hpwordPizza {
+    margin-top: 360px;
+    text-align: center;
+    color: white;
+    font-family : 'Italiana' , serif;
+    font-weight: bold;
+    font-size: 90px;
+    text-shadow: 0 5px 10px black;
+}
+
+
+#bottomImgDiv {
+    width: 100%;
+    height: 850px;
+    background-image: url("Pics/pizzabg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#logo {
+    position:absolute;
+    margin-top: 7px;
+}
+
+#hphomenav {
+    margin-left: 0;
+}
+
+#hpnavbar {
+    left: 10%;
+}
+
+
+#ssDiv {
+    border-style: solid;
+    margin: 0;
+    display: block;
+    top: 700px;
+    background-color: white;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 0;
+    
+}
+
+#bottomBanner {
+    height: 118px;
+    margin: 0;
+    bottom: 0%;
+    width: 100%;
+    background-color: red;
+    top: 150px;
+    padding: 20px;
+}
+
+#bottomContainer {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+
+}
+
+#bottomThing {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    margin-top: 250px;
+    
+}
+
+
+#bottomLogo {
+    width: 160px;
+    height: 81px;
+    display: block;
+    border-right: solid white 1px;
+    float: left;
+    
+}
+
+#bottomName {
+    width: 260px;
+    height: 40px;
+    padding: 0;
+    margin-left: 10px;
+    vertical-align: middle;
+    line-height: 40px;
+    font-weight: bold;
+    color: White;
+    font-family: 'Italiana', serif;
+}
+
+#date {
+    width: 100px;
+    height: 40px;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    color: White;
+    font-family: 'Italiana', serif;
+    border-top: solid 1px;
+    clear: left;
+}
+
+#freshDiv {
+    border-style: solid;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 350px;
+    vertical-align: middle;
+    line-height: 300px;
+    font-size: 40px;
+    background-image: url("pics/hawaiian.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Italiana', serif;
+}  
+
+#fresh {
+    color: white;
+    text-shadow:  2px 2px green;
+}
+
+
+
+#organicDiv {
+    border-style: solid;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 350px;
+    vertical-align: middle;
+    line-height: 300px;
+    font-size: 40px;
+    background-image: url("pics/veggies.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Italiana', serif;
+}  
+
+#organic {
+    color: white;
+    text-shadow:  2px 2px black;
+}
+
+#homemadeDiv {
+    border-style: solid;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 350px;
+    vertical-align: middle;
+    line-height: 300px;
+    font-size: 40px;
+    background-image: url("pics/sausage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Italiana', serif;
+}  
+
+#homemade {
+    color: white;
+    text-shadow:  2px 2px red;
+}
+
+#ovenBakedDiv {
+    border-style: solid;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 350px;
+    vertical-align: middle;
+    line-height: 300px;
+    font-size: 40px;
+    background-image: url("pics/ovenbaked.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Italiana', serif;
+}
+#ovenBaked {
+    color: white;
+    text-shadow:  2px 2px Blue;
+}
+
+#bottom3 {
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+.quote{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Italiana', serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.descr{
+    margin: 30px 30px;
+    margin-left: 70px ;
+    margin-right: 90px ;
+    font-size: 170%;
+    font-family: 'Italiana', serif;
+    font-weight: bold;
+    border: 2px solid blue ;
+    padding: 25px;
+    box-shadow: 0 3px 10px #4a4646;
+}
+
+.aboutPics{
+    display: block;
+    margin: auto;
+    width: 40%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: blue;
+    box-shadow: 0 5px 10px #4a4646 ;
+}
+
+.pizzeria {
+    text-align: center;
+    font-family: "Times New Roman" ;
+
+}
+
+.aboutPage{
+    text-align: center;
+    font-family: "Times New Roman";
+}
+
+
+li{
+    font-size:25px ;
+    margin-left: 350px;
+    display: block;
+}
+
+#sellOutDiv{
+    position: relative;
+    left: 3%;
+}
+
+.contacting {
+    width: 300px;
+    height: 200px;
+}
+
+
+.emailing{
+    width: 450px;
+}
+
+#eventMessage {
+    width: 450px;
+}
+
+.input-group-lg{
+    width: 450px;
+    height: 225px;
+}
+
+
+.nav>li>a:focus, .nav>li>a:hover {
+    color: red;
+    
+}  
+
+#ourlocation {
+    padding-left: 50px;
+    margin-top: 160px;
+}
+
+#bottomAddress {
+    width: 260px;
+    height: 40px;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-weight: bold;
+    color: White;
+    font-family: 'Italiana', serif;
+    top: 74%;
+    float: right;
+}
+
+
+#insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-size: 50px;
+  
+}
+
+#fb {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: white;
+  
+  font-size: 50px;
+  
+}
+
+#twitter {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #3c84ff;
+  
+  font-size: 50px;
+  
+}
+
+
+#eventForm {
+    margin-left: 40px;
+    width: 50%;
+    height: 410px;
+    border-right: solid 1px pink;
+    margin-top: 100px;
+    margin-bottom: 60px;
+
+}
+
+
+#eventChoices {
+    float: right;
+    margin-right: 80px;
+}
+
+.eventText {
+    font-family: 'Italiana', serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#store{
+    height:450px ;
+    margin-bottom: 30px;
+}
+
+.form-group{
+    margin-top: 120px;
+    border-right: 1px solid black;
+}
+
+#bottomContainerBOOM{
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    top: 660px;
+}
+
+#about {
+    margin-top: 150px;
+    position: relative;
+}
+
+.celName{
+    font-family: Arial Black, Georgia,  sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+
+#menuMainPic {
+    background-image: url("pics/menubg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+    padding-right: 0;
+}
+
+#menuEverything {
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+
+#menuMainPicDiv {
+    margin-top: 110px;
+}
+
+#menu {
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#menuPizza {
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#pizzaPic{
+    width: 50%;
+}
+
+#menuPizzaPic {
+    clear: right;
+}
+
+.InfoRight {
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 25px;
+    font-weight: bold;
+    width: 15%;
+    float: right;
+    right: 70%;
+}
+
+.InfoLeft {
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 25px;
+    font-weight: bold;
+    width: 15%;
+    float: left;
+    left: 70%;
+}
+
+#InfoPizza {
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 25px;
+    font-weight: bold;
+    width: 15%;
+    float: right;
+    right: 25%;
+    position: relative;
+}
+
+#Entrees {
+    clear: left;
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#meatballPic {
+    width: 450px;
+}
+
+#ravioli {
+    float: right;
+}
+
+#ravioliPic {
+    float: right;
+    width: 451px;
+    height: 254px;
+}
+
+#chickenParm {
+    clear: right;
+}
+
+#chickenParmPic {
+    width: 451px;
+    height: 313px;
+}
+
+#eggplantParmPic {
+    float: right;
+    width: 451px;
+}
+
+#chickenAlfredoPic {
+    float: left;
+    width: 451px;
+    height: 313px;
+}
+
+#Sides {
+    clear: left;
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#houseSaladPic {
+    float: left;
+    width: 451px;
+    height: 313px;
+}
+
+#chickenSaladPic {
+    float: right;
+    width: 451px;
+    height: 313px;
+}
+
+#garlicKnotsPic {
+    float: left;
+    width: 451px;
+    height: 313px;
+}
+
+#wingsPic {
+    float: right;
+    width: 451px;
+    height: 313px;
+}
+
+#ballsPic {
+    float: left;
+    width: 451px;
+    height: 313px;    
+}
+
+#Drinks {
+    clear: left;
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#Pepsi {
+    float: left;
+    width: 350px;
+    height: 350px;    
+}
+
+#dietPepsi {
+    width: 320px;
+    height: 320px; 
+}
+
+#mist {
+    width: 350px;
+    height: 350px;
+}
+
+#sunkist {
+    width: 350px;
+    height: 350px;
+}
+
+#fanta {
+    width: 350px;
+    height: 350px;
+}
+
+#snapple {
+    width: 350px;
+    height: 350px;
+}
+
+#drpepper {
+    width: 350px;
+    height: 350px;
+}
+
+#tea {
+    width: 350px;
+    height: 350px;
+}
+
+#water {
+    width: 350px;
+    height: 350px;
+}
+
+#coffee {
+    width: 350px;
+    height: 350px;
+}
+
+.navColor > li > a{
+    -webkit-transition: all 0.45s ease-in-out;
+    background-image: url("pics/brick.jpg");
+    background-size: 100%;
+    color: white;
+    border-style: solid;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+
+.navColor > .active > a, .nav-pills > .active > a:hover {
+    color: orange !important;
+}
+
+
+#partyPic{ 
+    height: 600px;
+    width: 600px;
+    float: left;
+    margin-top: 100px;
+}
